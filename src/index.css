@@ -148,3 +148,49 @@ h1, h2, h3, h4, .serif-brand {
 .return-home-link:hover {
     color: var(--brand-dark) !important;
 }
+
+.process-number-badge {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(13, 110, 253, 0.1);
+    color: var(--brand-primary);
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.process-step:hover .process-number-badge {
+    background-color: var(--brand-primary);
+    color: #ffffff;
+}
+
+.text-warning .bi-star-fill {
+    font-size: 0.9rem;
+    color: #ffc107 !important;
+}
+
+#testimonials .card {
+    border-left: 4px solid rgba(13, 110, 253, 0.3) !important;
+}
+
+.lead.text-muted {
+    font-size: 1.2rem !important;
+    color: #495057 !important;
+}
+
+.card-text.text-muted.small,
+.process-step .text-muted.small,
+#testimonials .card-text.text-secondary.small {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+    color: #495057 !important;
+}
+
+.process-step p.text-muted.small {
+    font-size: 0.95rem !important;
+}
